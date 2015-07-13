@@ -25,7 +25,6 @@ iron_backend = ["iron", "bodyparser", "plugin"]
 regex = "*"
 lazy_static = "*"
 rustc-serialize = "*"
-valico = "*"
 queryst = "*"
 jsonway = "*"
 url = "*"
@@ -36,6 +35,10 @@ typemap = "*"
 log = "*"
 typeable = "*"
 traitobject = "*"
+
+[dependencies.valico]
+git = "https://github.com/andor44/valico"
+branch = "wip"
 
 [dependencies.iron]
 optional = true
